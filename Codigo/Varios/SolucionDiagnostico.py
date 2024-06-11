@@ -21,7 +21,7 @@ def validarNumeros(lista):
             return False
     return True
 
-def Parcial3(lista):
+def Solucion(lista):
     if validarLista(lista):
         if validarNumeros(lista):
             #Agrupamiento de los elementos de la lista
@@ -106,9 +106,9 @@ def Parcial3(lista):
         return 'Error: El argumento no es una lista'
     return punto1, punto2, punto3, punto4, punto5, punto6, punto7, punto8, punto9
 
-a = Parcial3(evaluacion1)
-b = Parcial3(evaluacion2)
-c = Parcial3(evaluacion3)
+a = Solucion(evaluacion1)
+b = Solucion(evaluacion2)
+c = Solucion(evaluacion3)
 print('*'*100)
 print('Solucion a', a)
 print('*'*100)
